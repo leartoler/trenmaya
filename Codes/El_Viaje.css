@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "AkzidenzGrotesk-Bold";
+  src: url("file:///C:\Users\viznu\OneDrive\Documents\Projects\trenmaya\Fonts\AkzidenzGrotesk-Bold.otf")
+  format("opentype");
+}
+  
+@font-face {
+  font-family: "AkzidenzGrotesk-Regular";
+  src: url("file:///C:\Users\viznu\OneDrive\Documents\Projects\trenmaya\Fonts\AkzidenzGrotesk-Regular.otf")
+  format("opentype");
+}
+
+h1
+{
+  font-family: "AkzidenzGrotesk-Regular";
+  font-size: 10vw;
+  color: #53524aff;
+  text-align: center;
+}
+p{
+
+  font-family: "AkzidenzGrotesk-Regular";
+  font-size: 4vw;
+  color: #53524aff;
+}
+body
+{
+  background-color: #84bac4;
+  align-content: center;  
+}
+
+
+nav ul li
+{
+  display: inline;
+  margin: 0 20px;
+  font-family: "AkzidenzGrotesk-Regular";
+  font-size: 5vw;  
+  flex-flow: row wrap;
+  position: relative;
+}
+
+a
+{
+  font-family: "AkzidenzGrotesk-Regular";
+  color: #53524aff;
+}
+    
+.image-wrapper 
+{
+  text-align: center;
+}
+img
+{
+  width: 100%;
+  max-width: 600px; 
+  margin-bottom: 20px;
+  border: 10px solid #444;
+}
+.flex-container
+{
+  padding: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  width: %;
+}
+.caja 
+{
+ 
+  background-color: #84bac4;
+  color: black;   
+  text-align: center;
+  width: 100%;
+}
+.c1
+{ 
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  position: relative;
+}
+.c2
+{
+  width: 100%;   
+  justify-content:center;
+  position: relative;
+}
+.c3
+{
+  width: 100%;
+  text-align: center; 
+  justify-content: flex-center;
+  position: relative;
+}
+.c4
+{
+  background-image: url('file:///C:/Users/viznu/OneDrive/Documents/Asset_Web/rect8.png');
+  background-repeat: repeat-x;
+  background-size: cover; color: ##84bac4;
+  text-align: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 10vh;   
+}
+
+

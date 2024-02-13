@@ -1,13 +1,16 @@
-p{
-	font-family: "AkzidenzGrotesk-Regular";
-	font-size: 16px;
-	color: #ffffffff;
-}
-
 h1{
 	font-family: "AkzidenzGrotesk-Bold";
 	font-size: 40px;
 	color: #53524aff;
 }
+
+p
+{
+	font-family: "AkzidenzGrotesk-Regular";
+	font-size: 16px;
+	color: #ffffffff;
+}
+
+
 
 
