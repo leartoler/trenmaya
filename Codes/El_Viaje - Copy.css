@@ -1,10 +1,12 @@
-@font-face {
+@font-face 
+{
   font-family: "AkzidenzGrotesk-Bold";
   src: url("file:///C:\Users\viznu\OneDrive\Documents\Projects\trenmaya\Fonts\AkzidenzGrotesk-Bold.otf")
   format("opentype");
-}
-  
-@font-face {
+}  
+
+@font-face 
+{
   font-family: "AkzidenzGrotesk-Regular";
   src: url("file:///C:\Users\viznu\OneDrive\Documents\Projects\trenmaya\Fonts\AkzidenzGrotesk-Regular.otf")
   format("opentype");
@@ -15,21 +17,23 @@ h1
   font-family: "AkzidenzGrotesk-Regular";
   font-size: 10vw;
   color: #53524aff;
-  text-align: center;
+  text-align: center;  
+  margin-block-start: 0.10em;
+  margin-block-end: 0.10em;
 }
-p{
 
+p
+{
   font-family: "AkzidenzGrotesk-Regular";
   font-size: 4vw;
   color: #53524aff;
 }
+
 body
 {
-  background-color: #84bac4;
-  align-content: center;  
+  background-color: #84bac4;   
   margin: 0px;
 }
-
 
 nav ul li
 {
@@ -37,93 +41,65 @@ nav ul li
   margin: 0 20px;
   font-family: "AkzidenzGrotesk-Regular";
   font-size: 5vw;  
-  flex-flow: row wrap;
-  position: relative;
 }
 
 a
 {
   font-family: "AkzidenzGrotesk-Regular";
   color: #53524aff;
-}
-
-
-
-    
-
-
-
-
+} 
 
 .img1
 {
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px; 
+  max-width: 900px; 
   margin-bottom: 20px;
-  border: 10px solid #444;
+  border: 10px solid #53524a;
 }
-
-
 
 .img2
 {
   width: 100%;
   height: 100%;
-
-
-  
-
- 
 }
 
 .flex-container
 {
-
   display: inline-flex;
   flex-direction: column;
   height: 200px;
   width: 100%;
 }
-.caja 
-{
- 
-  background-color: #84bac4;
-  color: black;   
-  text-align: center;
-  width: 100%;
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-}
-.c1
-{ 
-  width: 100%;
-  height: 50%;
-  text-align: center;
-  position: relative;
-}
-.c2
-{
 
-  width: 100%;   
-  justify-content:center;
+.caja 
+{     
+  text-align: center;
+  width: 100%;  
+}
+
+.c1
+{      
   position: relative;
-  
+  padding: 0 0 30px 0;
+}
+
+.c2
+{   
+  box-sizing: border-box; 
+  justify-content:center;
+  position: relative;  
+  padding: 0 40px 0 40px;
 }
 .c3
 {
-  width: 100%;
-  text-align: center; 
-  justify-content: flex-center;
+  box-sizing: border-box;  
   position: relative;
+  padding: 0 40px 0 40px;
 }
+
 .c4
 {  
-
- text-align: center;
-  justify-content: flex-end;
-  botton:0;
-
+text-align: center;
+justify-content: flex-end;
 }
-
