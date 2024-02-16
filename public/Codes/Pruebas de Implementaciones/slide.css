@@ -157,8 +157,8 @@ border-radius: 50%;
 color: #fff;
 cursor: pointer;
 display: none;
-font-size: 40px;
-height: 40px;
+font-size: 2em;
+height: 2em;
 line-height: 35px;
 position: fixed;
 top: 50%;
@@ -167,7 +167,7 @@ cursor: pointer;
 -ms-transform: translate(0, -50%);
 transform: translate(0, -50%);
 text-align: center;
-width: 40px;v
+width: 2em;
 z-index: 10;
 }
 
