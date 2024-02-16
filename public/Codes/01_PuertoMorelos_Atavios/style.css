@@ -29,16 +29,6 @@ p
   color: #ffffff;
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-}
-
 body
 {
   background-color: #c3bf99;   
@@ -48,7 +38,7 @@ body
 nav ul li
 {
   display: inline;
-  margin: 1.5vw 1.5vw;
+  margin: 20px 20px;
   font-family: "AkzidenzGrotesk-Regular"; 
 }
 
