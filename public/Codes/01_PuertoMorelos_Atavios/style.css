@@ -29,6 +29,12 @@ p
   color: #ffffff;
 }
 
+a
+{
+  font-family: "AkzidenzGrotesk-Regular";
+  color: #53524aff;
+} 
+
 ul {
     display: block;
     list-style-type: disc;
@@ -39,18 +45,19 @@ ul {
     padding-inline-start: 0px;
 }
 
-body
-{
-  background-color: #c3bf99;   
-  margin: 0px;
-}
-
 nav ul li
 {
   display: inline;
   margin: 1.5vw 1.5vw;
   font-family: "AkzidenzGrotesk-Regular"; 
 }
+
+body
+{
+  background-color: #c3bf99;   
+  margin: 0px;
+}
+
 
 .nav1
 {
@@ -68,11 +75,14 @@ nav ul li
   font-size: 4vw;  
 }
 
-a
+.img1
 {
-  font-family: "AkzidenzGrotesk-Regular";
-  color: #53524aff;
-} 
+  box-sizing: border-box;  
+  width: 100%;
+  max-width: 900px; 
+  margin-bottom: 20px;
+  border: 10px solid #444;
+}
 
 .img1
 {
@@ -95,6 +105,11 @@ a
   flex-direction: column;
   height: 200px;
   width: 100%;
+}
+
+.container
+{  
+  margin-top: 26px;
 }
 
 .caja 
@@ -136,8 +151,6 @@ justify-content: flex-end;
 
 .c6
 {  
-text-align: center;
-justify-content: flex-end;
 }
 
 .slide 
@@ -192,8 +205,9 @@ color: #fff;
 cursor: pointer;
 display: none;
 font-size: 2em;
-height: 2em;
-line-height: 35px;
+height: 1.2em;
+width: 1.2em;
+line-height: 30px;
 position: fixed;
 top: 50%;
 -webkit-transform: translate(0, -50%);
@@ -201,7 +215,6 @@ cursor: pointer;
 -ms-transform: translate(0, -50%);
 transform: translate(0, -50%);
 text-align: center;
-width: 2em;
 z-index: 10;
 }
 
