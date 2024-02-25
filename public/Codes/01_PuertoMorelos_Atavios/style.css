@@ -22,6 +22,26 @@ h1
   margin-block-end: 0.10em;
 }
 
+h2
+{
+  font-family: "AkzidenzGrotesk-Bold";
+  font-size: 8vw;
+  color: #53524a;
+  text-align: center;
+  margin-block-start: 0.10em;
+  margin-block-end: 0.10em;
+}
+
+h3
+{
+  font-family: "AkzidenzGrotesk-Bold";
+  font-size: 6vw;
+  color: #53524a;
+  text-align: center;
+  margin-block-start: 0.10em;
+  margin-block-end: 0.10em;
+}
+
 p
 {
   font-family: "AkzidenzGrotesk-Regular";
